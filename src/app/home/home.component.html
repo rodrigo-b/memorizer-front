@@ -16,19 +16,10 @@
             </tr>
           </thead>
           <tbody class="table-group-divider">
-            <tr>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>edit</td>
-            </tr>
-            <tr>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>edit</td>
-            </tr>
-            <tr>
-              <td colspan="2">Larry the Bird</td>
-              <td>edit</td>
+            <tr *ngFor="let deck of decks">
+              <td>{{deck.name}}</td>
+              <td>{{deck.pendingActivities}}</td>
+              <td><a>>edit</a></td>
             </tr>
           </tbody>
          </table>
