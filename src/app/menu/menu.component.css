@@ -1,0 +1,13 @@
+.navbar {
+  max-width: 900px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center the navbar horizontally */
+  border-bottom: 1px solid #000
+}
+
+@media (max-width: 768px) {
+  /* Optional: Adjust padding or other styles for smaller screens */
+  .navbar {
+    padding: 0 15px; /* Example padding adjustment */
+  }
+
+}
